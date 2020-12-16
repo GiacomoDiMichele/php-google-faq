@@ -43,7 +43,39 @@ $faq = [
         <title></title>
     </head>
     <body>
-        <div class="main">
+        <header>
+            <div class="header-top">
+                <div class="logo">
+                    <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+                    <span>Privacy e termini</span>
+                </div>
+                <div class="account">
+                    <div class="account-menu">
+                        <span>G</span>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <ul>
+                    <li class="single-menu">
+                        <a class="single-url" href="#">Introduzione</a>
+                    </li>
+                    <li class="single-menu">
+                        <a class="single-url" href="#">Norme sulla privacy</a>
+                    </li>
+                    <li class="single-menu">
+                        <a class="single-url" href="#">Termini di servizio</a>
+                    </li>
+                    <li class="single-menu">
+                        <a class="single-url" href="#">Tecnologie</a>
+                    </li>
+                    <li class="single-menu">
+                        <a class="single-url active" href="#">Domande frequenti</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
             <div class="container">
                 <div class="faq">
                     <?php
@@ -62,6 +94,6 @@ $faq = [
                     </p>
                 </div>
             </div>
-        </div>
+        <main>
     </body>
 </html>
